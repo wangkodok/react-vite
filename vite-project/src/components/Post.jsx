@@ -1,8 +1,15 @@
+import classes from "./Post.module.css";
+
 function Post(props) {
   return (
-    <div>
-      <h1>{props.author}</h1>
-      <p>{props.body}</p>
+    <div className="post">
+      <div
+        style={{ color: "#2f2fa1", textAlign: "center" }}
+        className={classes.post}
+      >
+        <h1>{props.author}</h1>
+        <p>{props.body}</p>
+      </div>
     </div>
   );
 }
