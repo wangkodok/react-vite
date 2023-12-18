@@ -1,11 +1,8 @@
-const names = ["홍길동", "홍길순"];
-
-function Post() {
-  const resultTitle = Math.random() > 0.5 ? names[0] : names[1];
+function Post(props) {
   return (
     <div>
-      <h1>{resultTitle}</h1>
-      <p>설명</p>
+      <h1>{props.author}</h1>
+      <p>{props.body}</p>
     </div>
   );
 }
