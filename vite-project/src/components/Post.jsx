@@ -2,15 +2,12 @@ import classes from "./Post.module.css";
 
 function Post(props) {
   return (
-    <div className="post">
-      <div
-        style={{ color: "#2f2fa1", textAlign: "center" }}
-        className={classes.post}
-      >
-        <h1>{props.author}</h1>
-        <p>{props.body}</p>
+    <li className="post">
+      <div style={{ color: "#2f2fa1" }} className={classes.post}>
+        <h1 className={classes.author}>{props.author}</h1>
+        <p className={classes.body}>{props.body}</p>
       </div>
-    </div>
+    </li>
   );
 }
 
