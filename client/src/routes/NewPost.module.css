@@ -35,27 +35,21 @@
   display: flex;
   justify-content: flex-end;
   gap: 0.5rem;
+  align-items: center;
 }
 
 .actions button {
   cursor: pointer;
   font: inherit;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem;
   border: none;
-  border-radius: 4px;
-  background-color: #ffff82;
-  color: #2f2fa1;
-}
-
-.actions button:hover {
   background-color: #2f2fa1;
   color: #ffff82;
 }
 
-.actions button[type="button"] {
+.actions a {
   background-color: transparent;
-}
-
-.actions button[type="button"]:hover {
+  text-decoration: none;
   color: #2f2fa1;
+  padding: 0.5rem;
 }
