@@ -1,0 +1,27 @@
+.details {
+  padding: 1rem;
+  background-color: #ffff82;
+  border: 1px solid #2f2fa1;
+}
+.details .desc {
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: #2f2fa1;
+}
+
+.author {
+  font-size: 0.8rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2f2fa1;
+  margin: 0;
+}
+
+.text {
+  white-space: pre-wrap;
+  font-size: 1.25rem;
+  font-size: 1rem;
+
+  margin: 0.25rem 0 0 0;
+  color: #2f2fa1;
+}

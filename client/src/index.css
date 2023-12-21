@@ -2,3 +2,12 @@
   background-color: #ffff82;
   border: 1px solid #2f2fa1;
 }
+
+.post a {
+  text-decoration: none;
+}
+
+.post a:visited,
+.post a:active {
+  color: #2f2fa1;
+}
