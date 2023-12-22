@@ -22,7 +22,7 @@ function PostList() {
       {posts.length === 0 && (
         <div style={{ textAlign: "center", color: "#2f2fa1" }}>
           <h2>"New Post" 버튼을 눌러서 작성하세요.</h2>
-          <p>감사합니다.</p>
+          <p>고맙습니다.</p>
         </div>
       )}
     </>
