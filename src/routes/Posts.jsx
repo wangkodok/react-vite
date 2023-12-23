@@ -18,7 +18,8 @@ export async function loader() {
   try {
     // const response = await fetch("http://localhost:8080/posts");
     const response = await fetch(
-      "https://react-server-wangkodok.koyeb.app/posts"
+      // "https://react-server-wangkodok.koyeb.app/posts"
+      "http://localhost:8000/posts"
     );
     const resData = await response.json();
     return resData.posts;

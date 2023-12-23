@@ -33,6 +33,7 @@ export async function action({ request }) {
   const postData = Object.fromEntries(formData);
   // http://localhost:8080/posts
   await fetch("https://react-server-wangkodok.koyeb.app/posts", {
+    // await fetch("http://localhost:8000/posts", {
     method: "post",
     credentials: "include", // CORS
     body: JSON.stringify(postData),
