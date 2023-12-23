@@ -36,7 +36,7 @@ export default PostDetails;
 export async function loader({ params }) {
   // const response = await fetch("http://localhost:8080/posts/" + params.postId);
   const response = await fetch(
-    "https://react-server-wangkodok.koyeb.app/posts" + params.postId
+    "https://react-server-wangkodok.koyeb.app/posts/" + params.postId
     // "http://localhost:8000/posts" + params.postId
   );
   const resData = await response.json();
